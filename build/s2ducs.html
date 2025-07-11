@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About us</title>
+  <link rel="stylesheet" href="styleaboutus.css">
+  <style>
+    .descriptions {
+      background-color: rgba(255, 255, 255, 0.95);
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      gap: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 15px;
+      text-align: left;
+      align-items: flex-start;
+      padding: 20px;
+    }
+
+    .card img {
+      width: 50%;
+      height: auto;
+      object-fit: cover;
+      align-items: left;
+    }
+
+    .card-title, .card-desc {
+      text-align: left;
+      width: 100%;
+      font-size: 1rem;
+      font-weight: normal;
+      margin: 10px 0;
+    }
+
+    body {
+      background-color: rgba(255, 242, 191, 0.849);
+      font-family: Verdana;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      width: 100%;
+      padding: 20px;
+      background-color: #222;
+      color: rgb(255, 255, 255);
+      text-align: center;
+    }
+
+    header img {
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin: 10px;
+      font-weight: bold;
+      border-radius: 50%;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      border-bottom: 3px solid white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #222;
+      color: white;
+      position: absolute;
+      bottom: auto;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="c:\Users\Kenneth\Downloads\5039eac5-8698-4af1-a537-7c35ebeccd75.jpg" alt="Profile picture" />
+    <h1 style="font-family: 'Trebuchet MS'; color: rgb(255, 255, 255);">Kenneth Andrei B. Ducusin</h1>
+    <h1 style="font-family: 'Trebuchet MS'; color: rgb(255, 255, 255);">Freshman</h1>
+    <p style="font-family: 'Trebuchet MS'; color: rgb(255, 255, 255);">Contacts</p>
+    <nav>
+      <a href="mailto:kennethandreibd@gmail.com">kennethandreibd@gmail.com</a>
+      <a href="#Fb">Facebook</a>
+      <a href="#Ig">Instagram</a>
+    </nav>
+  </header>
+
+  <div class="descriptions">
+    <div class="card-grid">
+
+      <div class="card">
+        <div class="card-title"><b>Career Objective</b></div>
+        <div class="card-price">A highly motivated programming student looking for an opportunity where I can make the best of my potential and contribute to an organization's growth.</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title"><b>Education</b></div>
+        <div class="card-desc">2009–2024: School of Saint Anthony</div>
+        <div class="card-desc">2024–Present: Far Eastern University - Institute of Technology</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title"><b>Achievements</b></div>
+        <div class="card-desc">Silver Medalist in Badminton (2018)</div>
+        <div class="card-desc">Vice President of Alumni Batch 2024</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title"><b>Skills</b></div>
+        <div class="card-desc">Video Editing (Filmora)</div>
+        <div class="card-desc">Photo Editing (Canva)</div>
+        <div class="card-desc">Photography</div>
+        <div class="card-desc">Adaptability</div>
+        <div class="card-desc">Communication</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title"><b>Hobbies & Interests</b></div>
+        <div class="card-desc">Listening to Music</div>
+        <div class="card-desc">Listening to Podcasts</div>
+        <div class="card-desc">Video Games</div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Summative Assessment</p>
+  </footer>
+</body>
+</html>
